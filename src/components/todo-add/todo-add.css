@@ -1,0 +1,39 @@
+form {
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.add-input {
+    width: 310px;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    z-index: 1;
+}
+.add-input:focus {
+    box-shadow: inset rgb(23,162,174) 0 0 1px 1px,
+    rgb(23,162,174) 0 0 4px 2px;
+    outline: none;
+}
+.add {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background: none;
+    color: grey;
+}
+.add:hover {
+    background: rgba(0,0,0,0.50);
+    color: white;
+    cursor: pointer;
+}
+
+.add:active {
+    background: #17a2b8;
+    border: none;
+    box-shadow: inset rgb(23,162,174) 0 0 1px 1px,
+    rgb(23,162,174) 0 0 4px 2px;
+}
